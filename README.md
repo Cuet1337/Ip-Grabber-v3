@@ -2,8 +2,11 @@
 **New Update!**
 
 *Added: *
+
 *Pc name grabber*
+
 *Mac grabber*
+
 *Public & Pirvate ip*
 
 <a href="https://discord.gg/Rxstpec">
